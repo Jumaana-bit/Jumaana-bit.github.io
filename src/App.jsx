@@ -4,6 +4,7 @@ import About from "./components/About";
 import Tech from "./components/Tech"
 import Experience from "./components/Experience";
 import Projects from "./components/Projects"
+import Credits from "./components/Credits"
 import './index.css';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <Tech />
         <Experience />
         <Projects />
+        <Credits />
       </div>
     </div>
   );
