@@ -17,7 +17,7 @@ I enjoy every aspect of software engineering, from learning it to applying it. T
 
 ## Website
 
-The deplyed website can be accessed here: https://jumaana-bit.github.io/
+The deployed website can be accessed here: https://jumaana-bit.github.io/
 
 ## Credits
 This website was created with the help of a tutorial by *compiletab*. Special thanks to _compiletab_ channel for the guidance and inspiration.
