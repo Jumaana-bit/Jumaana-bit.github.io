@@ -15,9 +15,9 @@ I enjoy every aspect of software engineering, from learning it to applying it. T
 * __Operating System Concepts:__ Multi-threading, Race Conditions between Processes.
 * __Embedded Systems Software:__ FreeRTOS, Monolithic Kernels, ARM Architecture.
 
-# Website
+## Website
 
 The deplyed website can be accessed here: https://jumaana-bit.github.io/
 
 ## Credits
-This website was created with the help of a tutorial by YouTube Channel Name. Special thanks to [Instructor's Name] for the guidance and inspiration.
+This website was created with the help of a tutorial by *compiletab*. Special thanks to _compiletab_ channel for the guidance and inspiration.
