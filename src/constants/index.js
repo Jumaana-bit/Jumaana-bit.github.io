@@ -10,7 +10,11 @@ export const HERO_CONTENT = `I am a passionate and dedicated student in my fourt
 
 export const ABOUT_TEXT = `I enjoy every aspect of software engineering, from learning it to applying it. The past four years have taught me that software engineering is not just about coding but a comprehensive discipline that encompasses the entire process from idea to deployment. I have a special interest in mobile app development and web programming. However, I appreciate every facet of software engineering and adapt myself to excel in any field within it.`;
 
-export const MORE_ABOUT_TEXT = `I have gained proficiency in various programming languages and frameworks, including PHP, HTML, CSS, SQL, JavaScript, React, Java, Spring Boot, C, and C++. Throughout my studies, I have learned and applied different software development methodologies such as incremental, spiral, agile, and DevOps. My experience also includes working with distributed systems, including sockets, server/client architectures, and middleware. Additionally, I am well-versed in using command-line tools like Command Prompt, PowerShell, and WSL for Linux. I have a solid understanding of operating system concepts like multi-threading and race conditions between processes. Furthermore, I have knowledge of embedded systems software, including FreeRTOS, monolithic kernels, and ARM architecture.`;
+export const MORE_ABOUT_TEXT = ` I am proficient in various programming languages and frameworks, including PHP, HTML, CSS, SQL, JavaScript, React, Java, Spring Boot, C, and C++. I have applied different software development methodologies such as incremental, spiral, agile, and DevOps. My experience includes working with distributed systems, including sockets, server/client architectures, and middleware. I am well-versed in using scripting tools like Command Prompt, PowerShell, and WSL for Linux. I have a solid understanding of operating system concepts like multi-threading and race conditions between processes, and I am knowledgeable in embedded systems software, including FreeRTOS, monolithic kernels, and ARM architecture.
+`;
+
+
+
 
 export const EXPERIENCES = [
   {
@@ -42,7 +46,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "An Expedia-inspired website featuring flight booking, flight selection from a live API, seat selection, and ticket generation.",
-    technologies: ["PHP", "HTML", "CSS", "Bootstrap", "MySQL"],
+    technologies: ["PHP", "HTML", "Bootstrap", "MySQL"],
   },
   {
     title: "Virtual Memory App",
