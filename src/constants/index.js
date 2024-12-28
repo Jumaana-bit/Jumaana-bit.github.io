@@ -46,7 +46,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "An Expedia-inspired website featuring flight booking, flight selection from a live API, seat selection, and ticket generation.",
-    technologies: ["PHP", "HTML", "Bootstrap", "MySQL"],
+    technologies: ["PHP", "HTML", "CSS","Bootstrap", "MySQL"],
+    link: "https://github.com/Jumaana-bit/DataManagement-",
   },
   {
     title: "Virtual Memory App",
@@ -54,6 +55,7 @@ export const PROJECTS = [
     description:
       "An application designed to assist seniors and individuals with dementia by providing a user-friendly interface to manage memories, reminders, and important information. ",
     technologies: ["Java", "XML", "Android SDK", "SQLite"],
+    link: "https://github.com/Jumaana-bit/VirtualMemory",
   },
   {
     title: "Digital Library Application",
@@ -61,6 +63,7 @@ export const PROJECTS = [
     description:
       "A web-based platform designed to provide access to a collection of digital books without the need for borrowing.",
     technologies: ["Spring Boot", "H2", "JPA", "Thymeleaf"],
+    link: "https://github.com/Jumaana-bit/bookstore",
   },
   {
     title: "Ticket Booking Application",
@@ -68,6 +71,7 @@ export const PROJECTS = [
     description:
       "A platform for users to search, book, and manage flight itineraries that was created using TDD methodology.",
     technologies: ["Spring Boot", "JUnit", "Mockito", "Jenkins"],
+    link: "https://github.com/Jumaana-bit/ticketbookingapp",
   },
   {
     title: "Amusement Park Service",
@@ -75,6 +79,7 @@ export const PROJECTS = [
     description:
       "A Java-based RMI service simulating an amusement park. It provides ride management, join/leave ride functionality, waitlist handling, and a graceful server shutdown.",
     technologies: ["Java", "RMI", "Concurrency Utilities"],
+    link: "https://github.com/Jumaana-bit/ticketbookingapp",
   },
   {
     title: "Food Ordering App",
@@ -82,6 +87,7 @@ export const PROJECTS = [
     description:
       "A Flutter-based application that allows users to select food items from a predefined list while adhering to a specific target cost.",
     technologies: ["Flutter", "Dart", "SQLite" , "Android SDK"],
+    link: "https://github.com/Jumaana-bit/dinnertime",
   },
 ];
 

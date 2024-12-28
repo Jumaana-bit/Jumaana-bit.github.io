@@ -7,14 +7,18 @@ const Projects = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="p-4 border border-neutral-800 rounded-lg">
-                        <div className="relative w-full h-48 mb-4 overflow-hidden rounded aspect-[4/3]">
-                            <img
-                                src={project.image}
-                                alt={project.title}
-                                className="absolute inset-0 w-full h-full object-cover"
-                            />
-                        </div>
-                        <h6 className="mb-2 font-semibold">{project.title}</h6>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                            <div className="relative w-full h-48 mb-4 overflow-hidden rounded aspect-[4/3]">
+                                <img
+                                    src={project.image}
+                                    alt={project.title}
+                                    className="absolute inset-0 w-full h-full object-cover"
+                                />
+                            </div>
+                        </a>
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                            <h6 className="mb-2 font-semibold">{project.title}</h6>
+                        </a>
                         <p className="mb-4 text-neutral-400">{project.description}</p>
                         <div>
                             {project.technologies.map((tech, techIndex) => (
@@ -32,6 +36,7 @@ const Projects = () => {
         </div>
     );
 };
+
 
 
 export default Projects;
